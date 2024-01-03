@@ -1,0 +1,11 @@
+var firstName;
+var lastName;
+var fullName;
+var age;
+var child;
+firstName = 'saihan';
+lastName = 'reza';
+fullName = firstName.concat(lastName + 'safwan');
+age = 5;
+child = true;
+console.log("Hi i am ".concat(fullName, " ,my age is ").concat(age, " then am i a child? ").concat(child));
